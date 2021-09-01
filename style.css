@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: linear-gradient(120deg, #aff1af, #91f164 );
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+h1 span{
+    color: rgb(247, 160, 0);
+   
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 span{
+    color: rgb(247, 160, 0);
+   
+}
+
+
+.youtube{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+img{
+border-radius: 40%;
+align-items: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+.background{
+    display:flex;
+    justify-content: space-evenly;
+     
+}
+
