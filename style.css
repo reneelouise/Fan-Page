@@ -44,13 +44,22 @@ align-items: center;
 }
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    align-items: center;
-    
+.container .learning{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+       
 }
+
+.learning{
+    display: flex;
+}
+
+.quotes{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+    
+    
 
 .background{
     display:flex;
